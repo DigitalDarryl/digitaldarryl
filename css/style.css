@@ -634,10 +634,15 @@ section {
   transition: 1s;
 }
 
+#github {
+  color: #aaaaaa;
+}
+
 .socialIcons img:hover {
   background-color: #aaaaaa;
   border-radius: 50%;
 }
+
 
 /* ------ SCROLL ANIMATION ------*/
 
