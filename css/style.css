@@ -905,6 +905,10 @@ h5 {
   border-radius: 10px;
 }
 
+.contact p {
+  padding-top: 16px;
+  text-align: center;
+}
 .contact-info {
   display: flex;
   justify-content: center;
