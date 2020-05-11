@@ -839,7 +839,7 @@ h5 {
 
 .skills .col {
   margin: 5px auto;
-  width: 80%;
+  width: 60%;
   text-align: center;
   padding: 15px 10px;
 }
@@ -947,7 +947,7 @@ h5 {
 footer {
   margin: 20px 20px 20px 20px;
   padding: 50px 20px;
-  height: 30vh;
+  height: 20vh;
   color: #f1f1f1;
   background-color: #0e0e0e;
   border-radius: 10px 10px 0 0;
@@ -1039,8 +1039,6 @@ footer a {
     display: flex;
     flex-wrap: wrap;
   }
-
- 
   
   
   .newLanding {
