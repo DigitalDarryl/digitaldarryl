@@ -282,6 +282,7 @@ input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
   *overflow: visible; /* 4 */
+  background-color: #000;
 }
 
 /**
@@ -619,7 +620,7 @@ nav ul li a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #1a1a1a4f;
+  background-color: #3f3d3d;
   z-index: 999;
   transition: ease-in 1.8s;
 }
@@ -978,15 +979,15 @@ footer a {
 
 .cookie-container {
   position: fixed;
-  bottom: -100%;
+  
   left: 0;
   right: 0;
-  background: #011531de;
+  background-color: #011531;
   color: #ebebeb;
   text-align: center;
-  padding-top: 6px;
+  padding: 12px;
   transition: 400ms;
-  box-shadow: 0 -2px 16px #011531de;
+  
 }
 
 .cookie-container.active {
