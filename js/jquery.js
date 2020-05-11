@@ -53,7 +53,7 @@ $(".post-wrapper").slick({
 
 /* ----- CONTACT FORM ------- */
 
-/* ---- ACTIVATE FORM SPREE WHEN PUBLISHING ------ 
+/* ---- ACTIVATE FORM SPREE WHEN PUBLISHING ------ */ 
 
 $(document).ready(function() {
   $(".submitBtn").click(function(event) {
@@ -62,4 +62,4 @@ $(document).ready(function() {
 });
 
 
-*/
+
