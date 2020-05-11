@@ -936,8 +936,8 @@ h5 {
 /*---- FOOTER  ----- */
 
 footer {
-  margin: 20px 20px 0 20px;
-  padding-top: 20px;
+  margin: 20px 20px 20px 20px;
+  padding: 50px 20px;
   height: 20vh;
   color: #f1f1f1;
   background-color: #0e0e0e;
@@ -957,7 +957,9 @@ footer img {
 
 footer a {
   text-align: center;
-  padding: 5px;
+  padding: 3px;
+  color: white;
+  text-decoration: none;
 }
 /*----Cookie & Privacy Policy Banner  ----- */
 
