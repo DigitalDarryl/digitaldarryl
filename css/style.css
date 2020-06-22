@@ -800,7 +800,7 @@ h5 {
 }
 .timeline .col p {
   font-size: 13px;
-  font-family: sans-serif;
+  font-family: "roboto-condensed";
 }
 
 .responsive {
@@ -934,7 +934,7 @@ h5 {
 }
 
 .contact-info .submitBtn {
-  display: flex;
+  
   padding: 0 25px;
   background-color: #fff;
   color: #111;
@@ -942,7 +942,7 @@ h5 {
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
-  text-transform: uppercase;
+  
   margin: 0 auto;
   flex: center;
 }
