@@ -607,11 +607,11 @@ nav ul li a {
   margin: 0 40px;
   font-size: 20px;
   padding: 2px;
-  transition: 1s;
+  
 }
 
 nav ul li a:hover {
-  border-top: 3px solid #fff;
+  border-top: 2px solid #fff;
 }
 /* ------- Scroll Behaviour  --------  */
 
@@ -621,9 +621,9 @@ nav ul li a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #3f3d3d;
+  background-image: linear-gradient(to bottom, #12161b, #001b3b, #001e5c, #001b79, #000490);
   z-index: 999;
-  transition: ease-in 1.8s;
+  transition: ease-in 1s;
 }
 
 section {
@@ -878,7 +878,7 @@ h5 {
 }
 
 .gallery-content p {
-  background: rgba(34, 34, 34, 0.9);
+  background-image: linear-gradient(to bottom, #000490, #001b79, #001e5c, #001b3b, #12161b);
   color: white;
 }
 
@@ -900,8 +900,7 @@ h5 {
   margin: 0 auto;
   z-index: 99;
   width: 95%;
-  background: rgba(34, 34, 34, 0.9);
-  border: 0.5px solid #ffffff30;
+  background-image: linear-gradient(to bottom, #000490, #001b79, #001e5c, #001b3b, #12161b);  border: 0.5px solid #ffffff30;
   border-radius: 10px;
 }
 
@@ -914,6 +913,7 @@ h5 {
   justify-content: center;
   margin: 50px;
 }
+
 
 .contact-info .textField {
   height: 50px;
@@ -941,19 +941,18 @@ h5 {
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
+  margin: 0auto;
   
-  margin: 0 auto;
-  flex: center;
 }
 
 /*---- FOOTER  ----- */
 
 footer {
-  margin: 20px 20px 20px 20px;
+  margin-top: 20px;
   padding: 50px 20px;
   height: 20vh;
   color: #f1f1f1;
-  background-color: #0e0e0e;
+  background-color: #111;
   border-radius: 10px 10px 0 0;
   display: grid;
   flex: column;
@@ -1108,9 +1107,9 @@ footer a {
     background: #fff;
     color: #1d1c1c;
     border-radius: 0 50px 50px 0;
-    padding-right: 70px;
+    padding-right: 65px;
     transition: 0.3s;
-    font-size: 16px;
+    font-weight: bold;
   }
 
   .newLanding h2 {
@@ -1123,6 +1122,9 @@ footer a {
   .image {
     flex: 100%;
     margin: 20px;
+  }
+  .contact {
+    width: 70%;
   }
 }
 @media only screen and (max-width: 1000px) {
