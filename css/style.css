@@ -597,6 +597,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   height: 20px;
+  
 }
 
 nav ul li a {
@@ -794,12 +795,9 @@ h5 {
   box-shadow: -20px 50px 50px rgba(0, 0, 0, 0.5);
 }
 
-.quoteImg {
-  font-size: 35px;
-  font-family: cursive;
-}
+
 .timeline .col p {
-  font-size: 13px;
+  font-size: 16px;
   font-family: "roboto-condensed";
 }
 
@@ -823,7 +821,8 @@ h5 {
 
 .skills {
   width: 95%;
-  background: rgba(34, 34, 34, 0.9);
+  background-image: linear-gradient(to bottom, #12161b, #001b3b, #001e5c, #001b79, #000490);
+
   padding: 50px 10px 10px 0px;
   margin: 50px auto;
   text-align: center;
@@ -846,7 +845,7 @@ h5 {
 }
 
 .skills .col img {
-  max-width: 55px;
+  max-width: 50px;
   padding: 10px;
 }
 
